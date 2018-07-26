@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statustext"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Please fill your details"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/detailtext"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:clickable="true"/>
+
+
+
+            <LinearLayout
+                android:id="@+id/email_password_fields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:hint="Enter your email"
+                    android:clickable="true"/>
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:hint="Enter your password"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/email_password_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="SIGN IN"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/signup"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="SIGN UP"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/signed_in_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <Button
+                    android:id="@+id/signout"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="SIGN OUT"
+                    android:textStyle="bold" />
+
+                <!--<Button
+                    android:id="@+id/verify_btn"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Verify Account"
+                    android:textStyle="bold" />-->
+
+
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "636365224934",
+    "firebase_url": "https://lspeech-e22da.firebaseio.com",
+    "project_id": "lspeech-e22da",
+    "storage_bucket": "lspeech-e22da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636365224934:android:727f07d505332e0e",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.lspeech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636365224934-v8gkjns9smn12o2bm0dqo0a9nh7k06tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.lspeech",
+            "certificate_hash": "fbdba25186fa16923123c5b52b4d136438a088ec"
+          }
+        },
+        {
+          "client_id": "636365224934-v23hptnn4bhs2d2h0ad6c0a5e35svdip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8IwwZnhNWH3fHnmb2tLG5Mvieuqqlb5U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636365224934-v23hptnn4bhs2d2h0ad6c0a5e35svdip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
